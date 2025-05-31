@@ -1,0 +1,5 @@
+bs4
+openai
+gspread
+google-auth 
+google-auth-oauthlib
