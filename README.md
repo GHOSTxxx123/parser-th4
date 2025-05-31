@@ -56,11 +56,12 @@
 
 Настройки
 Для переключения между онлайн и офлайн генерацией описаний раскомментируйте нужную строку в цикле обработки товаров в main.py:
+
     ```bash
     python
     # unique_desc = generate_description_onlain(...)
     unique_desc = generate_description_offlain(...)
-    
+
 Структура проекта
     dental_first.py — сбор описаний с сайта Dental First
 
