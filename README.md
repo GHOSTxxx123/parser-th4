@@ -42,12 +42,12 @@
    ```bash
    git clone https://github.com/yourusername/dental-first-description-generator.git
    cd dental-first-description-generator
-Установите зависимости:
-    ```
+2. Установите зависимости:
+    ```bash
     pip install -r requirements.txt
     Настройте доступ к Google Sheets и API (инструкции для вашего окружения).
 
-Использование
+3. Использование
 Запустите скрипт командой:
     python main.py
 
