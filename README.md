@@ -60,6 +60,7 @@
     python
     # unique_desc = generate_description_onlain(...)
     unique_desc = generate_description_offlain(...)
+    
 Структура проекта
     dental_first.py — сбор описаний с сайта Dental First
 
