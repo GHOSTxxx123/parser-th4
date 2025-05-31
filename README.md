@@ -79,3 +79,5 @@ meta_generator.py — генерация метаданных
 google_sheet_writer.py — запись данных в Google Sheets
 
 main.py — основной скрипт запуска процесса
+
+![alt text](image.png)
