@@ -43,40 +43,32 @@
    git clone https://github.com/yourusername/dental-first-description-generator.git
    cd dental-first-description-generator
 Установите зависимости:
-
-    ```bash
     pip install -r requirements.txt
     Настройте доступ к Google Sheets и API (инструкции для вашего окружения).
 
 Использование
 Запустите скрипт командой:
+    python main.py
 
-bash
-Копировать
-Редактировать
-python main.py
 В процессе скрипт выведет время выполнения ключевых этапов.
 
 Настройки
 Для переключения между онлайн и офлайн генерацией описаний раскомментируйте нужную строку в цикле обработки товаров в main.py:
-
-python
-Копировать
-Редактировать
-# unique_desc = generate_description_onlain(...)
-unique_desc = generate_description_offlain(...)
+    python
+    # unique_desc = generate_description_onlain(...)
+    unique_desc = generate_description_offlain(...)
 Структура проекта
-dental_first.py — сбор описаний с сайта Dental First
+    dental_first.py — сбор описаний с сайта Dental First
 
-gpt_generate_onlain.py — генерация описаний через API GPT (онлайн)
+    gpt_generate_onlain.py — генерация описаний через API GPT (онлайн)
 
-gpt_generate_offlain.py — генерация описаний с локальной моделью (офлайн)
+    gpt_generate_offlain.py — генерация описаний с локальной моделью (офлайн)
 
-meta_generator.py — генерация метаданных
+    meta_generator.py — генерация метаданных
 
-google_sheet_writer.py — запись данных в Google Sheets
+    google_sheet_writer.py — запись данных в Google Sheets
 
-main.py — основной скрипт запуска процесса
+    main.py — основной скрипт запуска процесса
 
 Время отрабатывания скриптов от старта до финального результата
-![alt text](image.png)
+    ![alt text](image.png)
