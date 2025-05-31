@@ -44,11 +44,9 @@
    cd dental-first-description-generator
 Установите зависимости:
 
-bash
-Копировать
-Редактировать
-pip install -r requirements.txt
-Настройте доступ к Google Sheets и API (инструкции для вашего окружения).
+    ```bash
+    pip install -r requirements.txt
+    Настройте доступ к Google Sheets и API (инструкции для вашего окружения).
 
 Использование
 Запустите скрипт командой:
